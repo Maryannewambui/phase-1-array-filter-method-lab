@@ -8,7 +8,7 @@ findMatching()
 const  drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
 
 function findMatching(drivers, Bobby) {
-    return drivers.filter(function (driver) { return driver.toLowerCase() === Bobby.toLowerCase() })
+    return drivers.filter(function (drivers) { return drivers.toLowerCase() === Bobby.toLowerCase() })
     }  
 findMatching()
 
@@ -20,14 +20,14 @@ fuzzyMatch()
       */
 
 function fuzzyMatch(drivers, s) {
-    return drivers.filter(function (driver) { return driver.toLowerCase().substring(0, s.length) === s.toLowerCase() })
+    return drivers.filter(function (drivers) { return drivers.toLowerCase().substring(0, s.length) === s.toLowerCase() })
   }
   fuzzyMatch()
 
 //matchName() - accesses the data structure to check if name matches
 
 function matchName(drivers, Annette) {
-    return drivers.filter(function (driver) { return driver.name === Annette })
+    return drivers.filter(function (drivers) { return drivers.name === Annette })
   }
 
 
